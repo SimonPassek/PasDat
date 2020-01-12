@@ -1,4 +1,5 @@
 name: "PasData"
+output_dir: "docs"
 navbar:
   title: "PasData"
   left:
