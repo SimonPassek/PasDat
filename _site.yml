@@ -1,0 +1,15 @@
+name: "PasData"
+navbar:
+  title: "PasData"
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "presentations"
+      icon: fa-gear
+      href: presentations.html
+output:
+  html_document:
+    theme: cosmo
+    include:
+      after_body: footer.html
