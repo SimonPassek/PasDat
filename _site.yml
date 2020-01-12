@@ -9,8 +9,14 @@ navbar:
     - text: "presentations"
       icon: fa-gear
       href: presentations.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: https://github.com/SimonPassek
 output:
   html_document:
     theme: cosmo
     include:
       after_body: footer.html
+    css: "styles.css"
